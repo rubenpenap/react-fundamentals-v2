@@ -1,3 +1,13 @@
+> ## 🚨 Important Notice
+>
+> This repository is a clone of the
+> [React Fundamentals](https://www.epicreact.dev/workshops/react-fundamentals/react-fundamentals-intro)
+> by Kent C. Dodds. It has been published solely to document my GitHub activity
+> and for personal educational purposes.
+>
+> **Note:** This is not an official fork or a maintained derivative of the
+> original project.
+
 <div>
   <h1 align="center"><a href="https://www.epicweb.dev/workshops">React Fundamentals ⚛</a></h1>
   <strong>
