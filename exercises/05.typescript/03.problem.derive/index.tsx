@@ -7,13 +7,15 @@ const operations = {
 	'/': (left: number, right: number): number => left / right,
 }
 
-type CalculatorProps = {
+function Calculator({
+	left,
+	operator,
+	right,
+}: Readonly<{
 	left: number
-	// 🐨 derive these values from the keys of the operations object
-	operator: '+' | '-' | '*' | '/'
+	operator: keyof typeof operations
 	right: number
-}
-function Calculator({ left, operator, right }: CalculatorProps) {
+}>) {
 	const result = operations[operator](left, right)
 	return (
 		<div>
