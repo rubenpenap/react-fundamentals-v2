@@ -7,13 +7,26 @@ function App() {
 				<label htmlFor="usernameInput">Username:</label>
 				<input id="usernameInput" name="username" />
 			</div>
-			{/* 🐨 add appropriate inputs for:
-				- password
-				- age (accepting numbers from 0 to 200)
-				- photo (restricts the input to only accept image files)
-				- color
-				- startDate
-			 */}
+			<div>
+				<label htmlFor="passwordInput">Password:</label>
+				<input id="passwordInput" name="password" type="password" />
+			</div>
+			<div>
+				<label htmlFor="ageInput">Age:</label>
+				<input id="ageInput" name="age" type="number" min="0" max="200" />
+			</div>
+			<div>
+				<label htmlFor="photoInput">Photo:</label>
+				<input id="photoInput" name="photo" type="file" accept="image/*" />
+			</div>
+			<div>
+				<label htmlFor="colorInput">Favorite Color:</label>
+				<input id="colorInput" name="color" type="color" />
+			</div>
+			<div>
+				<label htmlFor="startDateInput">Start Date:</label>
+				<input id="startDateInput" name="startDate" type="date" />
+			</div>
 			<button type="submit">Submit</button>
 		</form>
 	)
